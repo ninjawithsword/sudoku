@@ -205,8 +205,8 @@ void print_possible_lines() {
     num_of_solutions[line] = k;
   }
   
-  /* print_num_of_solutions(); */
-  /* print_potentials(); */
+  print_num_of_solutions();
+  print_potentials();
 }
 
 int combinations(int line) {
